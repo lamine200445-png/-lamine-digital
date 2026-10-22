@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Bissau Cinema & Entretenimento Digital - Mercado Digital Bissau</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        #netlify-badge, .netlify-badge, a[href*="netlify.com"] { display: none !important; }
+
+        :root {
+            --bg-dark: #090d16;
+            --bg-card: #121926;
+            --primary: #7c3aed;
+            --orange: #ff6600;
+            --orange-glow: rgba(255, 102, 0, 0.4);
+            --blue-glow: rgba(0, 168, 225, 0.4);
+            --text-main: #ffffff;
+            --text-muted: #94a3b8;
+            --success: #10b981;
+            --border: #1e293b;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Plus Jakarta Sans', sans-serif; }
+        body { background-color: var(--bg-dark); color: var(--text-main); padding: 15px; min-height: 100vh; display: flex; align-items: center; justify-content: center; }
+
+        .container { max-width: 480px; width: 100%; margin: 0 auto; }
+
+        .bridge-card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 24px;
+            padding: 1.8rem 1.25rem;
+            text-align: center;
+            box-shadow: 0 12px 35px rgba(0,0,0,0.6);
+            animation: fadeIn 0.3s ease-out;
+            overflow: hidden;
+        }
+
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+
+        .logo-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--orange), #d95300);
+            color: #ffffff;
+            font-size: 0.75rem;
+            font-weight: 800;
+            padding: 4px 12px;
+            border-radius: 20px;
+            margin-bottom: 1rem;
+            letter-spacing: 0.5px;
+        }
+
+        .title { font-size: 1.35rem; font-weight: 800; margin-bottom: 0.5rem; color: #ffffff; }
+        .subtitle { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.5rem; line-height: 1.4; }
+
+        .info-box {
+            background-color: var(--bg-dark);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 1rem;
+            text-align: left;
+            margin-bottom: 1.5rem;
+        }
+
+        .info-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.82rem;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 0.75rem;
+        }
+
+        .info-item:last-child { margin-bottom: 0; }
+        .info-icon { font-size: 1.1rem; }
+
+        .action-container { display: flex; flex-direction: column; gap: 10px; }
+
+        .btn-site {
+            width: 100%;
+            background: linear-gradient(135deg, var(--orange), #d95300);
+            color: #ffffff;
+            padding: 14px;
+            border-radius: 14px;
+            font-weight: 800;
+            font-size: 0.9rem;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            box-shadow: 0 4px 15px var(--orange-glow);
+            text-transform: uppercase;
+        }
+
+        .btn-whatsapp {
+            width: 100%;
+            background: linear-gradient(135deg, #25d366, #128c7e);
+            color: #ffffff;
+            padding: 14px;
+            border-radius: 14px;
+            font-weight: 800;
+            font-size: 0.9rem;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+            text-transform: uppercase;
+        }
+
+        .btn-channel {
+            width: 100%;
+            background: rgba(37, 211, 102, 0.12);
+            color: #25d366;
+            border: 1px solid rgba(37, 211, 102, 0.4);
+            padding: 12px;
+            border-radius: 14px;
+            font-weight: 800;
+            font-size: 0.85rem;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            text-transform: uppercase;
+        }
+
+        .footer-note { font-size: 0.72rem; color: var(--text-muted); margin-top: 1.25rem; font-weight: 600; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="bridge-card">
+            
+            <span class="logo-badge">MERCADO DIGITAL BISSAU 🇬🇼</span>
+            
+            <h1 class="title">Bissau Cinema & Entretenimento</h1>
+            <p class="subtitle">Aceda ao catálogo completo de conteúdos, filmes, séries e recargas de jogos na Guiné-Bissau.</p>
+
+            <div class="info-box">
+                <div class="info-item">
+                    <span class="info-icon">🎬</span>
+                    <span>Planos de 1 Mês, 3 Meses e 6 Meses disponíveis</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-icon">📱</span>
+                    <span>Assista no Smartphone, TV, Notebook ou Tablet</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-icon">💳</span>
+                    <span>Pagamento rápido via Orange Money (955288370)</span>
+                </div>
+            </div>
+
+            <div class="action-container">
+                <!-- Link para o Site Principal -->
+                <a href="index.html" class="btn-site">
+                    🌐 Entrar no Catálogo do Site
+                </a>
+
+                <!-- Link para Atendimento Direto no WhatsApp -->
+                <a href="https://wa.me/245955288370?text=Ol%C3%A1!%20Vim%20pelo%20an%C3%BAncio%20do%20Bissau%20Cinema%20e%20gostaria%20de%20comprar." target="_blank" class="btn-whatsapp">
+                    💬 Pedir no WhatsApp Directo
+                </a>
+
+                <!-- Link para o Canal Oficial no WhatsApp -->
+                <a href="https://whatsapp.com/channel/0029Vb8vmND77qVS9gLhSn0d" target="_blank" class="btn-channel">
+                    📢 Entrar no Canal de Ofertas
+                </a>
+            </div>
+
+            <p class="footer-note">Atendimento disponível das 10h às 00h | Guiné-Bissau 🇬🇼</p>
+        </div>
+    </div>
+
+</body>
+</html>
